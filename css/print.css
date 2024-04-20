@@ -1,0 +1,8 @@
+/* Show only the table when printing */
+body * {
+    display: none;
+}
+
+table {
+    display: table !important;
+}
