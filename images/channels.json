@@ -1,0 +1,254 @@
+[
+    {
+        "name": "Pro TV",
+        "url": "http://915941857102677211.ofk0601.xyz:80/live/SERVICIO/@H8cQbTKrkQ/677211.ts#checkedby:iptvlister.com",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/romania/pro-tv-ro.png",
+        "category": ""
+    },
+    {
+        "name": "Prima TV",
+        "url": "https://p8.stirilepe.net/prima/video.m3u8",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/romania/prima-tv-ro.png",
+        "category": ""
+    },
+    {
+        "name": "Prima TV HD",
+        "url": "https://p8.stirilepe.net/prima/tracks-v1a1/mono.m3u8",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/romania/prima-tv-ro.png",
+        "category": ""
+    },
+    {
+        "name": "Prima Comedy SD",
+        "url": "https://p8.stirilepe.net/primacomedysd/tracks-v1a1/mono.m3u8",
+        "logo": "https://i.ibb.co/3m1XC9M/Prima-Comedy.webp",
+        "category": ""
+    },
+    {
+        "name": "Kanal D",
+        "url": "https://p8.stirilepe.net/kanald/tracks-v1a1/mono.m3u8",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/romania/kanal-d-ro.png",
+        "category": ""
+    },
+    {
+        "name": "Antena 1",
+        "url": "https://p8.stirilepe.net/antena1/tracks-v1a1/mono.m3u8",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/romania/antena-1-ro.png",
+        "category": ""
+    },
+    {
+        "name": "National Tv",
+        "url": "https://p8.stirilepe.net/nationaltvsd/tracks-v1a1/mono.m3u8",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/romania/national-tv-ro.png",
+        "category": ""
+    },
+    {
+        "name": "TVR 1 HD",
+        "url": "https://p8.stirilepe.net/tvr1hd/tracks-v1a1/mono.m3u8",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/romania/tvr-1-ro.png",
+        "category": ""
+    },
+    {
+        "name": "Acasa HD",
+        "url": "https://p8.stirilepe.net/acasahd/tracks-v1a1/mono.m3u8",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/romania/acasa-ro.png",
+        "category": ""
+    },
+    {
+        "name": "Acasa Gold",
+        "url": "https://p8.stirilepe.net/acasagold/tracks-v1a1/mono.m3u8",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/romania/acasa-gold-ro.png",
+        "category": ""
+    },
+    {
+        "name": "Prima News SD",
+        "url": "https://p8.stirilepe.net/primanewssd/tracks-v1a1/mono.m3u8",
+        "logo": "https://i.ibb.co/XCnP7m6/Prima-News-2022.png",
+        "category": ""
+    },
+    {
+        "name": "Antena Stars",
+        "url": "https://p8.stirilepe.net/antenastarssd/tracks-v1a1/mono.m3u8",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/romania/antena-stars-ro.png",
+        "category": ""
+    },
+    {
+        "name": "National 24 Plus",
+        "url": "https://p8.stirilepe.net/national24sd/tracks-v1a1/mono.m3u8",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/romania/national-24-plus-ro.png",
+        "category": ""
+    },
+    {
+        "name": "AMC SD",
+        "url": "https://p8.stirilepe.net/amcsd/tracks-v1a1/mono.m3u8",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/romania/amc-ro.png",
+        "category": ""
+    },
+    {
+        "name": "Pro Cinema SD",
+        "url": "https://p8.stirilepe.net/procinemasd/tracks-v1a1/mono.m3u8",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/romania/pro-cinema-ro.png",
+        "category": ""
+    },
+    {
+        "name": "Bollywood TV",
+        "url": "https://p8.stirilepe.net/bollywoodtv/tracks-v1a1/mono.m3u8",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/romania/bollywood-ro.png",
+        "category": ""
+    },
+    {
+        "name": "Prima Sport 1 HD",
+        "url": "https://p8.stirilepe.net/primasport1hd/tracks-v1a1/mono.m3u8",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/romania/prima-sport-1-ro.png",
+        "category": ""
+    },
+    {
+        "name": "Prima Sport 2 SD",
+        "url": "https://p8.stirilepe.net/primasport2sd/tracks-v1a1/mono.m3u8",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/romania/prima-sport-2-ro.png",
+        "category": ""
+    },
+    {
+        "name": "Cartoon Network SD",
+        "url": "https://p8.stirilepe.net/cartoonnetworksd/tracks-v1a1/mono.m3u8",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/f/fe/CARTOON_NETWORK_logo.png",
+        "category": ""
+    },
+    {
+        "name": "Cartoonito Boomerang",
+        "url": "https://p8.stirilepe.net/cartoonito-boomerang/tracks-v1a1/mono.m3u8",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/4/41/Boomerang_tv_logo.png",
+        "category": ""
+    },
+    {
+        "name": "Jim Jam SD",
+        "url": "https://p8.stirilepe.net/jimjamsd/tracks-v1a1/mono.m3u8",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/6/62/JimJam.png",
+        "category": ""
+    },
+    {
+        "name": "Minimax",
+        "url": "https://p8.stirilepe.net/minimax/tracks-v1a1/mono.m3u8",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/MinimaxLogo2013.png/1200px-MinimaxLogo2013.png",
+        "category": ""
+    },
+    {
+        "name": "Disney Channel SD",
+        "url": "https://p8.stirilepe.net/disneychannelsd/tracks-v1a1/mono.m3u8",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/7/78/Disney_Channel_Germany_Logo_2014.png",
+        "category": ""
+    },
+    {
+        "name": "Cinemax HD",
+        "url": "https://p8.stirilepe.net/cinemaxhd/tracks-v1a1/mono.m3u8",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/romania/cinemax-ro.png",
+        "category": ""
+    },
+    {
+        "name": "Nat Geo Wild SD",
+        "url": "https://p8.stirilepe.net/natgeowildsd/tracks-v1a1/mono.m3u8",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/romania/nat-geo-wild-ro.png",
+        "category": ""
+    },
+    {
+        "name": "Cinemax 2 SD",
+        "url": "https://p8.stirilepe.net/cinemax2sd/tracks-v1a1/mono.m3u8",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/romania/cinemax2-ro.png",
+        "category": ""
+    },
+    {
+        "name": "Diva",
+        "url": "https://p8.stirilepe.net/diva/tracks-v1a1/mono.m3u8",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/romania/diva-ro.png",
+        "category": ""
+    },
+    {
+        "name": "AXN SD",
+        "url": "https://p8.stirilepe.net/axnsd/tracks-v1a1/mono.m3u8",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/romania/axn-ro.png",
+        "category": ""
+    },
+    {
+        "name": "HBO HD",
+        "url": "https://p8.stirilepe.net/hbohd/tracks-v1a1/mono.m3u8",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/romania/hbo-ro.png",
+        "category": ""
+    },
+    {
+        "name": "HBO 2",
+        "url": "https://p8.stirilepe.net/hbo2sd/tracks-v1a1/mono.m3u8",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/romania/hbo2-ro.png",
+        "category": ""
+    },
+    {
+        "name": "HBO 3",
+        "url": "https://p8.stirilepe.net/hbo3sd/tracks-v1a1/mono.m3u8",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/romania/hbo3-ro.png",
+        "category": ""
+    },
+    {
+        "name": "Film Cafe",
+        "url": "https://p8.stirilepe.net/filmcafesd/tracks-v1a1/mono.m3u8",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/romania/film-cafe-ro.png",
+        "category": ""
+    },
+    {
+        "name": "Pro Arena",
+        "url": "https://p8.stirilepe.net/proarenahd/tracks-v1a1/mono.m3u8",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/romania/pro-arena-ro.png",
+        "category": ""
+    },
+    {
+        "name": "Discovery SD",
+        "url": "https://p8.stirilepe.net/discoverysd/tracks-v1a1/mono.m3u8",
+        "logo": "https://seeklogo.com/images/D/discovery-channel-logo-21D063E22D-seeklogo.com.png",
+        "category": ""
+    },
+    {
+        "name": "Viasat Nature SD",
+        "url": "https://p8.stirilepe.net/viasatnaturesd/tracks-v1a1/mono.m3u8",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/romania/viasat-nature-ro.png",
+        "category": ""
+    },
+    {
+        "name": "Taraft TV SD",
+        "url": "https://p8.stirilepe.net/taraftvsd/tracks-v1a1/mono.m3u8",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/6/68/Taraf_TV_logo_2017-present.png",
+        "category": ""
+    },
+    {
+        "name": "Balkan Music SD",
+        "url": "https://p8.stirilepe.net/balkanmusicsd/tracks-v1a1/mono.m3u8",
+        "logo": "https://www.predavatel.com/bg/2/blagoevgrad_img/tv-balkan-music.png",
+        "category": ""
+    },
+    {
+        "name": "Diaspora Tv",
+        "url": "https://hls.radiosolution.fr/n8k9kUqbV2W6B5a4v6RX/index.m3u8",
+        "logo": "https://diaspora.media/assets/img/logo_dt_gold.png",
+        "category": ""
+    },
+    {
+        "name": "Party Mix SD",
+        "url": "https://p8.stirilepe.net/partymixsd/tracks-v1a1/mono.m3u8",
+        "logo": "https://iconape.com/wp-content/files/ol/279103/svg/mixtv-logo-logo-icon-png-svg.png",
+        "category": ""
+    },
+    {
+        "name": "Happy Channel SD",
+        "url": "https://p8.stirilepe.net/happychannelsd/tracks-v1a1/mono.m3u8",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/romania/happy-channel-ro.png",
+        "category": ""
+    },
+    {
+        "name": "Tv Paprika",
+        "url": "https://p8.stirilepe.net/tvpaprika/tracks-v1a1/mono.m3u8",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/romania/tv-paprika-ro.png",
+        "category": ""
+    },
+    {
+        "name": "Digi24",
+        "url": "https://dai.google.com/linear/hls/pa/event/OQfdjUhHSDSlb1fJVzehsQ/stream/c49d4f83-8632-457d-b0c2-4250822d1916:BRU/variant/716fe9526ffac767351951dbb4a71a5e/bandwidth/4973419.m3u8",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/romania/digi-24-ro.png",
+        "category": ""
+    }
+]

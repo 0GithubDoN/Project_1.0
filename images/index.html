@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoboTV</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+<div class="container">
+    <div class="sidebar" tabindex="-1">
+        <h1>Channels</h1>
+        <div class="menu">
+            <button id="menuBtn" aria-label="Menu" tabindex="1"><i class="fas fa-bars"></i></button>
+            <button id="searchBtn" aria-label="Search" tabindex="2"><i class="fas fa-search"></i></button>
+        </div>
+        <div class="channel-list" aria-live="polite" tabindex="-1"></div>
+    </div>
+    <div class="main-content" tabindex="-1">
+        <div class="video-container" tabindex="-1">
+            <div class="loading-spinner" id="loadingSpinner" aria-label="Loading..."></div>
+            <video id="videoPlayer" class="video-player" controls aria-label="Video Player" tabindex="-1"></video>
+            <div class="current-channel-info" id="currentChannelInfo">
+                <div class="current-channel" id="currentChannel">Channel Name</div>
+                <div class="clock" id="clock">12:34</div>
+            </div>
+            <div class="controls" id="videoControls">
+                <button id="prevChannelBtn" class="control-btn" title="Previous Channel" tabindex="4">⏮</button>
+                <button id="nextChannelBtn" class="control-btn" title="Next Channel" tabindex="5">⏭</button>
+                <button id="channelListBtn" class="control-btn" title="Channel List" tabindex="6">📺</button>
+                <button id="fullscreenBtn" class="control-btn" title="Fullscreen" tabindex="7">⛶</button>
+                <button id="darkModeToggle" class="control-btn" title="Toggle Dark Mode" tabindex="8">🌙</button>
+            </div>
+        </div>
+        <div class="channel-list-container" id="mediaChannelList" tabindex="-1"></div>
+    </div>
+</div>
+
+<div id="popupMenu" class="popup-menu">
+    <button id="uploadBtn" aria-label="Upload M3U/M3U8" tabindex="13">Upload M3U/M3U8</button>
+    <input type="file" id="fileInput" accept=".m3u,.m3u8" style="display: none;" aria-label="File Input"/>
+    <button id="urlBtn" aria-label="Play via URL" tabindex="14">Play via URL</button>
+    <button id="clearDataBtn" aria-label="Clear Data" tabindex="15">Clear Data</button>
+</div>
+
+<div id="urlInputContainer" class="popup-menu" style="display: none;">
+    <input type="text" id="urlInput" placeholder="Enter M3U URL" aria-label="URL Input" tabindex="16"/>
+    <button id="playUrlOkBtn" aria-label="Play URL" tabindex="17">OK</button>
+    <button id="playUrlCancelBtn" aria-label="Cancel" tabindex="18">Cancel</button>
+</div>
+
+<div id="popupSearch" class="popup-menu">
+    <input type="text" id="searchInput" placeholder="Search Channels" oninput="filterChannels()" aria-label="Search Channels" tabindex="19">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
