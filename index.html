@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DoN's Tech Help</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- Include header -->
+    <div w3-include-html="header.html"></div>
+
+    <div id="editable-content">
+        <section id="home">
+            <div class="hero">
+                <div class="hero-text">
+                    <h1>Welcome to DoN's Tech Help</h1>
+                    <p>Your trusted local IT support and PC repair service.</p>
+                    <button class="btn btn-warning cta-button" data-toggle="modal" data-target="#bookingModal"><i class="fas fa-calendar-check"></i> Book Now</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="container my-5">
+            <h2 class="text-center mb-4">Our Services</h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card service-item text-center">
+                        <img src="images/pc-repair-icon.png" class="card-img-top" alt="PC Repair">
+                        <div class="card-body">
+                            <h3 class="card-title">PC Repair</h3>
+                            <p class="card-text">Quick and reliable PC repair services.</p>
+                            <a href="services.html#pc-repair" class="btn btn-info cta-button"><i class="fas fa-info-circle"></i> Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card service-item text-center">
+                        <img src="images/hardware-icon.png" class="card-img-top" alt="Hardware Installation">
+                        <div class="card-body">
+                            <h3 class="card-title">Hardware Installation</h3>
+                            <p class="card-text">Expert hardware installation and upgrades.</p>
+                            <a href="services.html#hardware-installation" class="btn btn-info cta-button"><i class="fas fa-info-circle"></i> Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card service-item text-center">
+                        <img src="images/network-icon.png" class="card-img-top" alt="Network Setup">
+                        <div class="card-body">
+                            <h3 class="card-title">Network Setup</h3>
+                            <p class="card-text">Secure and efficient network setup.</p>
+                            <a href="services.html#network-setup" class="btn btn-info cta-button"><i class="fas fa-info-circle"></i> Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card service-item text-center">
+                        <img src="images/virus-removal-icon.png" class="card-img-top" alt="Virus Removal">
+                        <div class="card-body">
+                            <h3 class="card-title">Virus Removal</h3>
+                            <p class="card-text">Effective virus and malware removal.</p>
+                            <a href="services.html#virus-removal" class="btn btn-info cta-button"><i class="fas fa-info-circle"></i> Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="parallax bg-dark text-white text-center py-5">
+            <div class="container">
+                <h2>What Our Customers Say</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="testimonial">
+                            <p><i class="fas fa-quote-left"></i> DoN's Tech Help fixed my PC in no time! Highly recommend. <i class="fas fa-quote-right"></i></p>
+                            <p>- Jane D.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="testimonial">
+                            <p><i class="fas fa-quote-left"></i> Great service and very professional. My go-to tech support. <i class="fas fa-quote-right"></i></p>
+                            <p>- John S.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Booking Modal -->
+        <div class="modal fade" id="bookingModal" tabindex="-1" aria-labelledby="bookingModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="bookingModalLabel">Book a Service</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form id="booking-form" class="needs-validation" novalidate>
+                            <div class="form-row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="modal-name">Name</label>
+                                    <input type="text" class="form-control" id="modal-name" name="name" required>
+                                    <div class="invalid-feedback">
+                                        Please provide your name.
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="modal-email">Email</label>
+                                    <input type="email" class="form-control" id="modal-email" name="email" required>
+                                    <div class="invalid-feedback">
+                                        Please provide a valid email.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="modal-phone">Phone</label>
+                                    <input type="tel" class="form-control" id="modal-phone" name="phone" required>
+                                    <div class="invalid-feedback">
+                                        Please provide your phone number.
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="modal-service">Service Required</label>
+                                    <select class="custom-select" id="modal-service" name="service" required>
+                                        <option value="">Choose...</option>
+                                        <option value="pc-repair">PC Repair</option>
+                                        <option value="hardware-installation">Hardware Installation</option>
+                                        <option value="network-setup">Network Setup</option>
+                                        <option value="virus-removal">Virus Removal</option>
+                                    </select>
+                                    <div class="invalid-feedback">
+                                        Please select a service.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="modal-date">Preferred Date</label>
+                                    <input type="date" class="form-control" id="modal-date" name="date" required>
+                                    <div class="invalid-feedback">
+                                        Please select a preferred date.
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="modal-time">Preferred Time</label>
+                                    <input type="time" class="form-control" id="modal-time" name="time" required>
+                                    <div class="invalid-feedback">
+                                        Please select a preferred time.
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="btn btn-primary btn-block" type="submit">Book Now</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Include footer -->
+    <div w3-include-html="footer.html"></div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

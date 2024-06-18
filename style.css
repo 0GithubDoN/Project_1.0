@@ -1,0 +1,341 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body Styling */
+body {
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background: #1e3a63;
+    color: #fff;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+header .logo i {
+    margin-right: 0.5rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-right: 1rem;
+}
+
+nav ul li {
+    margin-left: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a i {
+    margin-right: 0.5rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background: url('images/hero-image.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 4rem 0;
+    position: relative;
+}
+
+.hero .hero-text {
+    background: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.cta-button {
+    background: #ffcc00;
+    color: #1e3a63;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+}
+
+.cta-button i {
+    margin-right: 0.5rem;
+}
+
+.cta-button:hover {
+    background: #e6b800;
+}
+
+/* Services Section */
+#services {
+    background: #fff;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+#services h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.service-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service-item {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 200px;
+    margin: 1rem;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.service-item:hover {
+    transform: scale(1.05);
+}
+
+.service-item img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 1rem;
+}
+
+.service-item h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.service-item .cta-button {
+    font-size: 0.9rem;
+}
+
+/* Service Detail Section */
+#service-details {
+    background: #fff;
+    padding: 2rem;
+}
+
+.service-detail-container {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.service-detail {
+    margin-bottom: 2rem;
+}
+
+.service-detail h3 {
+    font-size: 1.8rem;
+    color: #1e3a63;
+    margin-bottom: 1rem;
+}
+
+.service-detail p {
+    margin-bottom: 1rem;
+}
+
+.service-detail h4 {
+    font-size: 1.4rem;
+    color: #1e3a63;
+    margin-bottom: 0.5rem;
+}
+
+.service-detail ul {
+    list-style: disc inside;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.service-detail ul li {
+    margin-bottom: 0.5rem;
+}
+
+/* About Section */
+#about {
+    background: #fff;
+    padding: 2rem;
+}
+
+.about-content {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+#about h2 {
+    font-size: 2rem;
+    color: #1e3a63;
+    margin-bottom: 1rem;
+}
+
+#about h3 {
+    font-size: 1.4rem;
+    color: #1e3a63;
+    margin-bottom: 0.5rem;
+}
+
+#about ul {
+    list-style: disc inside;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+#about ul li {
+    margin-bottom: 0.5rem;
+}
+
+/* Testimonials Section */
+#testimonials {
+    background: #1e3a63;
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+#testimonials h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.testimonial {
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+
+.testimonial p i {
+    margin: 0 0.3rem;
+}
+
+/* Footer */
+footer {
+    background: #1e3a63;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer .social-media i {
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+}
+
+/* Form Styling */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+form input,
+form select,
+form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    background: #1e3a63;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #16385d;
+}
+
+/* Animations */
+.fade-in {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.fade-in.appear {
+    opacity: 1;
+}
+
+.slide-in {
+    transform: translateX(-100%);
+    transition: transform 1s ease-in-out;
+}
+
+.slide-in.appear {
+    transform: translateX(0);
+}
+
+/* Parallax Effect */
+.parallax {
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* Highlight Effect */
+.highlight {
+    border: 2px solid #ffcc00;
+    box-shadow: 0 0 10px rgba(255, 204, 0, 0.8);
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+}

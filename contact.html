@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - DoN's Tech Help</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- Include header -->
+    <div w3-include-html="header.html"></div>
+
+    <div id="editable-content">
+        <section id="contact" class="container my-5 fade-in">
+            <h2 class="text-center mb-4">Contact Us</h2>
+            <form id="contact-form" class="needs-validation" novalidate>
+                <div class="form-row">
+                    <div class="col-md-6 mb-3">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" name="name" required>
+                        <div class="invalid-feedback">
+                            Please provide your name.
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                        <div class="invalid-feedback">
+                            Please provide a valid email.
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                    <div class="invalid-feedback">
+                        Please provide a message.
+                    </div>
+                </div>
+                <button class="btn btn-primary btn-block" type="submit">Send Message</button>
+            </form>
+        </section>
+    </div>
+
+    <!-- Include footer -->
+    <div w3-include-html="footer.html"></div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

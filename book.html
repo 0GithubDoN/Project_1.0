@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Service - DoN's Tech Help</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- Include header -->
+    <div w3-include-html="header.html"></div>
+
+<section id="book" class="container my-5 fade-in">
+    <h2 class="text-center mb-4">Book a Service</h2>
+    <form id="booking-form" novalidate class="needs-validation">
+        <div class="form-row">
+            <div class="col-md-6 mb-3">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required class="form-control"/>
+                <div class="invalid-feedback">
+                    Please provide your name.
+                </div>
+            </div>
+            <div class="col-md-6 mb-3">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required class="form-control"/>
+                <div class="invalid-feedback">
+                    Please provide a valid email.
+                </div>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="col-md-6 mb-3">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone" required class="form-control"/>
+                <div class="invalid-feedback">
+                    Please provide your phone number.
+                </div>
+            </div>
+            <div class="col-md-6 mb-3">
+                <label for="service">Service Required</label>
+                <select class="custom-select" id="service" name="service" required>
+                    <option value="">Choose...</option>
+                    <option value="pc-repair">PC Repair</option>
+                    <option value="hardware-installation">Hardware Installation</option>
+                    <option value="network-setup">Network Setup</option>
+                    <option value="virus-removal">Virus Removal</option>
+                </select>
+                <div class="invalid-feedback">
+                    Please select a service.
+                </div>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="col-md-6 mb-3">
+                <label for="date">Preferred Date</label>
+                <input type="date" id="date" name="date" required class="form-control"/>
+                <div class="invalid-feedback">
+                    Please select a preferred date.
+                </div>
+            </div>
+            <div class="col-md-6 mb-3">
+                <label for="time">Preferred Time</label>
+                <input type="time" id="time" name="time" required class="form-control"/>
+                <div class="invalid-feedback">
+                    Please select a preferred time.
+                </div>
+            </div>
+        </div>
+        <button class="btn btn-primary btn-block" type="submit">Book Now</button>
+    </form>
+</section>
+
+    <!-- Include footer -->
+    <div w3-include-html="footer.html"></div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
